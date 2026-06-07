@@ -96,6 +96,9 @@ def main() -> None:
     if os.environ.get("CLAUDIO_TTS_ENABLED", "1") == "0":
         sys.exit(0)
 
+    if os.path.exists(os.path.expanduser("~/.claude/claudio-tts.disabled")):
+        sys.exit(0)
+
     voice = os.environ.get("CLAUDIO_TTS_VOICE", "Aaliyah-PlayAI")
     speed = float(os.environ.get("CLAUDIO_TTS_SPEED", "1.0"))
     api_key = os.environ.get("GROQ_API_KEY", "")

@@ -25,7 +25,14 @@ That's it. Claude will start speaking after the next response.
 
 Once installed, the hook runs automatically on every Claude Code session. No commands needed.
 
-To temporarily silence it:
+Toggle it on or off at any time:
+
+```
+/claudio-tts:off
+/claudio-tts:on
+```
+
+Or set an env var to disable for the current session only:
 
 ```bash
 export CLAUDIO_TTS_ENABLED=0

@@ -10,5 +10,6 @@
   "repository": "https://github.com/matheusbuniotto/claudio",
   "license": "MIT",
   "keywords": ["tts", "accessibility", "audio", "groq"],
+  "skills": "./skills/",
   "hooks": "./hooks/hooks.json"
 }
