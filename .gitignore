@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+.env.local
+.claude/state/
+.claude/settings.json
+.claude/settings.local.json

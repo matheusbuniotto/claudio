@@ -1,0 +1,14 @@
+{
+  "name": "claudio-tts",
+  "displayName": "Claudio TTS",
+  "version": "1.0.0",
+  "description": "Reads Claude's last message aloud after each response via Groq TTS, with system say/espeak fallback.",
+  "author": {
+    "name": "Matheus Buniotto",
+    "url": "https://github.com/matheusbuniotto"
+  },
+  "repository": "https://github.com/matheusbuniotto/claudio",
+  "license": "MIT",
+  "keywords": ["tts", "accessibility", "audio", "groq"],
+  "hooks": "./hooks/hooks.json"
+}
